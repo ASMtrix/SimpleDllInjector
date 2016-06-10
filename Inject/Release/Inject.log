@@ -1,22 +1,30 @@
-﻿Build started 1/23/2016 8:47:51 PM.
-     1>Project "C:\Users\popcorn\Documents\Visual Studio 2010\Projects\Inject\Inject\Inject.vcxproj" on node 2 (Build target(s)).
-     1>ResourceCompile:
-         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\Inject.res" Inject.rc 
+﻿Build started 5/3/2016 7:58:32 PM.
+     1>Project "C:\cygwin64\home\popcorn\code\Inject\Inject\Inject.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(12): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>main.cpp(13): warning C4005: 'assert' : macro redefinition
+                 c:\cygwin64\home\popcorn\code\inject\inject\memory.h(4) : see previous definition of 'assert'
+     1>main.cpp(226): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>main.cpp(407): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdlib.h(554) : see declaration of 'wcstombs'
+     1>main.cpp(420): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdlib.h(909) : see declaration of 'itoa'
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\popcorn\Documents\Visual Studio 2010\Projects\Inject\Release\Inject.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\popcorn\Documents\Visual Studio 2010\Projects\Inject\Release\Inject.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\popcorn\Documents\Visual Studio 2010\Projects\Inject\Release\Inject.lib" /MACHINE:X86 /SAFESEH Release\Inject.res
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\cygwin64\home\popcorn\code\Inject\Release\Inject.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\cygwin64\home\popcorn\code\Inject\Release\Inject.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\cygwin64\home\popcorn\code\Inject\Release\Inject.lib" /MACHINE:X86 /SAFESEH Release\Inject.res
          Release\main.obj
          Generating code
-     1>c:\users\popcorn\documents\visual studio 2010\projects\inject\inject\main.cpp(112): warning C4700: uninitialized local variable 'i' used
-     1>c:\users\popcorn\documents\visual studio 2010\projects\inject\inject\main.cpp(114): warning C4700: uninitialized local variable 'i' used
-     1>c:\users\popcorn\documents\visual studio 2010\projects\inject\inject\main.cpp(150): warning C4700: uninitialized local variable 'i' used
-     1>c:\users\popcorn\documents\visual studio 2010\projects\inject\inject\main.cpp(154): warning C4700: uninitialized local variable 'i' used
-     1>c:\users\popcorn\documents\visual studio 2010\projects\inject\inject\main.cpp(169): warning C4700: uninitialized local variable 'i' used
-     1>c:\users\popcorn\documents\visual studio 2010\projects\inject\inject\main.cpp(175): warning C4700: uninitialized local variable 'i' used
-     1>c:\users\popcorn\documents\visual studio 2010\projects\inject\inject\main.cpp(22): warning C4700: uninitialized local variable 'i' used
+     1>c:\cygwin64\home\popcorn\code\inject\inject\main.cpp(393): warning C4700: uninitialized local variable 'i' used
+     1>c:\cygwin64\home\popcorn\code\inject\inject\main.cpp(211): warning C4700: uninitialized local variable 'i' used
+     1>c:\cygwin64\home\popcorn\code\inject\inject\main.cpp(213): warning C4700: uninitialized local variable 'i' used
+     1>c:\cygwin64\home\popcorn\code\inject\inject\main.cpp(333): warning C4700: uninitialized local variable 'i' used
+     1>c:\cygwin64\home\popcorn\code\inject\inject\main.cpp(337): warning C4700: uninitialized local variable 'i' used
+     1>c:\cygwin64\home\popcorn\code\inject\inject\main.cpp(45): warning C4700: uninitialized local variable 'i' used
          Finished generating code
-         Inject.vcxproj -> C:\Users\popcorn\Documents\Visual Studio 2010\Projects\Inject\Release\Inject.exe
-     1>Done Building Project "C:\Users\popcorn\Documents\Visual Studio 2010\Projects\Inject\Inject\Inject.vcxproj" (Build target(s)).
+         Inject.vcxproj -> C:\cygwin64\home\popcorn\code\Inject\Release\Inject.exe
+     1>Done Building Project "C:\cygwin64\home\popcorn\code\Inject\Inject\Inject.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.78
+Time Elapsed 00:00:00.92
